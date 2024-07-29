@@ -1,0 +1,60 @@
+#title{
+    color: lightskyblue;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+body{
+    background-color: lightgray;
+}
+#div1{
+    /* background-image: url(https://images.pexels.com/photos/17266857/pexels-photo-17266857/free-photo-of-vase-with-flowers-and-cup-of-coffee.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load); */
+    background-color: rgb(226, 164, 84);
+    background-size: 800px;
+    background-position: 20%;
+    position: fixed;
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 50px;
+    border-radius: 5%;
+    
+}
+#div2{
+    background-image: url(https://images.pexels.com/photos/26832682/pexels-photo-26832682/free-photo-of-sea-view-mallorca.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+    background-size: 800px;
+    background-position: 50%;
+}
+#div3{
+    background-image: url(https://images.pexels.com/photos/8919038/pexels-photo-8919038.jpeg?auto=compress&cs=tinysrgb&w=400&lazy=load);
+    background-size: 800px;
+    background-position-x: 20%;
+    background-position-y: 30%;
+}
+#div2, #div3{
+    width: 600px;
+    height: 600px;
+    /* float: right; */
+    border-radius: 15%;
+
+}
+.text{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40%;
+}
+.menu{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    margin: 25px;
+
+}
+.menu_div{
+    border-radius: 15%;
+    width: 100px;
+    height: 30px;
+    background-color: lightcoral;
+    float: left;
+    margin-left: 15%;
+    margin-top: 10px;
+}
